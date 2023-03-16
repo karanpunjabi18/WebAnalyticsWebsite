@@ -83,6 +83,16 @@ window.dataLayer.push({
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     
+<!--  for manual purchase button    -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=TAG_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'GTM-5GN36Q2');
+    </script>
     <div>This is where the purchase form would go</div>
     <button id="purchase">Purchase</button>
     <script>
